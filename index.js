@@ -13,7 +13,7 @@ axios({
         countryCode: 'MY'
     },
     headers: {
-        Authorization : 'Bearer e583bf9c-6f79-3715-a681-3cd4db51d874'
+        Authorization : 'Bearer <YOUR TOKEN>'
     }
 }).then((result) => {
     console.log(result.data);
